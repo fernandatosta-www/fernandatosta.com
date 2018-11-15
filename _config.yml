@@ -1,0 +1,80 @@
+name: "Fernanda Tosta"
+keywords: "marcenaria, projetos, etc, tal"
+
+url: https://FernandaTosta.com
+baseurl: ""
+port: 4554
+permalink: /:title/
+
+social:
+  tumblr: ""
+  pinterest: ""
+  instagram: ""
+  twitter: ""
+  facebook: ""
+  youtube: ""
+  vimeo: ""
+  soundcloud: ""
+  email: ""
+  twitter_user: ""
+
+encoding: utf-8
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      type: "standard"
+
+# prose.io
+prose:
+  media: 'media'
+  ignore:
+    - .gitignore
+    - _config.yml
+    - _layouts
+    - _includes
+    - _pages
+    - _sass
+    - css
+    - fonts
+    - js
+    - CNAME
+    - media/favicon
+    - media/swipebox
+  metadata:
+    _pages:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "published"
+        field:
+          element: "hidden"
+          value: "true"
+      - name: "title"
+        field:
+          element: "text"
+          label: "nome da página"
+      - name: "cover-image"
+        field:
+          element: "text"
+          label: "imagem de capa para a página (tem que ser .jpg por enquanto)"
+          placeholder: "horta2.jpg"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+relative_permalinks: false
+include: ['_pages']
+exclude: [.git, .gitignore, .sass-cache, README.md]
