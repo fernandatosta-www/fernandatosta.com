@@ -2,10 +2,12 @@
 ---
 
 @import 'constants';
+@import 'font.css';
 
 html, body {
   margin: 0;
   padding: 0;
+  font-family: Futura_FT;
 }
 
 .top-bar {
