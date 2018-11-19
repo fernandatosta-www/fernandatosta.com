@@ -7,3 +7,6 @@
 .DS_Store
 .sass-cache
 _site/
+css/Futura_PT/FuturaPTBold*.otf
+css/Futura_PT/FuturaPTDemi*.otf
+css/Futura_PT/FuturaPTExtraBold*.otf
