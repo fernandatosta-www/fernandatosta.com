@@ -17,6 +17,20 @@
 
 @font-face {
   font-family: Futura_FT;
+  font-weight: 300;
+  font-style: normal;
+  src: url(Futura_PT/FuturaPTBook.otf);
+}
+
+@font-face {
+  font-family: Futura_FT;
+  font-weight: 300;
+  font-style: italic;
+  src: url(Futura_PT/FuturaPTBookOblique.otf);
+}
+
+@font-face {
+  font-family: Futura_FT;
   font-weight: 400;
   font-style: normal;
   src: url(Futura_PT/FuturaPTMedium.otf);

@@ -1,0 +1,9 @@
+{% assign imagepath = site.baseurl | append: 'media/covers' %}
+
+<div class="parallax-container"
+     style="background-image: url({{ imagepath }}/{{ include.image }})">
+  <div class="parallax-tint">
+    <div class="parallax-subtitle">{{ include.subtitle }}</div>
+    <div class="parallax-title">{{ include.title }}</div>
+  </div>
+</div>

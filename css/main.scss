@@ -8,6 +8,10 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: Futura_FT;
+  font-size: 14px;
+  @include media-query(DESKTOP) {
+    font-size: 16px;
+  }
 }
 
 .top-bar {
@@ -17,20 +21,39 @@ html, body {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
+  align-items: center;
   box-sizing: border-box;
   padding: 16px;
 
+  @include media-query(DESKTOP) {
+    padding: 36px;
+  }
+
   .main-title {
     text-transform: uppercase;
-    letter-spacing: 5px;
+    color: $TEXT-COLOR;
+
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: .6em;
+    line-height: 1em;
+
     a {
       text-decoration: none;
+      color: $TEXT-COLOR;
+      &:visited {
+        color: $TEXT-COLOR;
+      }
     }
   }
 
   .menu-open {
     display: block;
     cursor: pointer;
+    font-size: 24px;
+    font-weight: 100;
     @include media-query(DESKTOP) {
       display: none;
     }
@@ -58,11 +81,24 @@ html, body {
   background-color: #fff;
   transition: left 0.8s ease-in-out;
 
+  .mobile-menu-content-container {
+    padding-bottom: 24px;
+  }
+
   .menu-close {
     cursor: pointer;
     position: absolute;
-    top: 16px;
-    right: 16px;
+    top: 0;
+    right: 0;
+    font-size: 24px;
+    font-weight: 100;
+    padding: 16px;
+    color: $TEXT-COLOR;
+    transition: color $TRANSITION-PERIOD linear;
+
+    &:hover {
+      color: $TEXT-COLOR-HOVER;
+    }
   }
 }
 
@@ -90,12 +126,148 @@ html, body {
   li {
     list-style: none;
     padding: 24px 24px 0;
+    font-size: 36px;
+    font-weight: 200;
+    letter-spacing: 0;
+    line-height: 1em;
+    text-transform: capitalize;
 
     @include media-query(DESKTOP) {
       padding: 0 10px;
+      font-size: 10px;
+      font-weight: 400;
+      letter-spacing: .25em;
+      line-height: 1em;
+      text-transform: uppercase;
     }
+
     a {
       text-decoration: none;
+      color: $TEXT-COLOR;
+      transition: color $TRANSITION-PERIOD linear;
+
+      &:visited {
+        color: $TEXT-COLOR;
+      }
+      &:hover {
+        color: $TEXT-COLOR-HOVER;
+      }
+    }
+  }
+}
+
+.parallax-container {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+
+  .parallax-tint {
+    padding: 40% 8%;
+    background: rgba(0, 0, 0, .333);
+
+    @include media-query(DESKTOP) {
+      padding: 12% 8%;
+    }
+
+    .parallax-title {
+      text-transform: uppercase;
+      font-size: 32px;
+      font-weight: 600;
+      @include media-query(DESKTOP) {
+        letter-spacing: .1em;
+        font-size: 80px;
+        line-height: 1em;
+      }
+    }
+
+    .parallax-subtitle {
+      font-size: 24px;
+      line-height: 2em;
+      font-weight: 100;
+      @include media-query(DESKTOP) {
+        line-height: 5em;
+      }
+    }
+  }
+}
+
+.forty-sixty {
+  width: 100%;
+  padding: 0 16px;
+  margin: 64px 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  @include media-query(DESKTOP) {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0 64px;
+    margin: 128px 0;
+  }
+
+  h1 {
+    margin: 0 0 64px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: .1em;
+
+    @include media-query(DESKTOP) {
+      font-size: 80px;
+    }
+  }
+
+  h3 {
+    margin: 25px 0;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.333em;
+    letter-spacing: .1em;
+
+    @include media-query(DESKTOP) {
+      font-size: 30px;
+    }
+  }
+
+  h4 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 200;
+    line-height: 2em;
+    letter-spacing: .2em;
+
+    @include media-query(DESKTOP) {
+      font-size: 30px;
+    }
+  }
+
+  p {
+    color: $TEXT-COLOR-LIGHT;
+    margin: 25px 0;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1.1em;
+  }
+
+  .forty {
+    width: 100%;
+    padding: 0 16px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+    text-align: center;
+    @include media-query(DESKTOP) {
+      width: 40%;
+    }
+  }
+  .sixty {
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+    @include media-query(DESKTOP) {
+      width: 60%;
     }
   }
 }
