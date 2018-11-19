@@ -10,7 +10,9 @@
     {% for video in include.videos %}
       {% unless forloop.first %}
         <div class="video-player-menu-option" data-id="{{ video.id }}">
-          <div class="video-player-menu-option-image" style="background-image: url('{{ site.baseurl }}{{ video.cover }}');"></div>
+          <div class="video-player-menu-option-image" style="background-image: url('{{ site.baseurl }}{{ video.cover }}');">
+            <i class="fa fa-play"></i>
+          </div>
           <div class="video-player-menu-option-text">{{ video.title }}</div>
         </div>
       {% endunless %}

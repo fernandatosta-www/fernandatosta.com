@@ -489,10 +489,30 @@ a {
         }
 
         .video-player-menu-option-image {
-          padding-bottom: 56.25%;
+          padding: 16% 0;
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center;
+          display: flex;
+          justify-content: center;
+
+          i {
+            color: #fff;
+            font-size: 20px;
+            border-radius: 20%;
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, .5);
+            transition: all $TRANSITION-PERIOD linear;
+          }
+        }
+
+        &:hover {
+          .video-player-menu-option-image {
+            i {
+              color: $TEXT-COLOR;
+              background-color: #fff;
+            }
+          }
         }
       }
     }
