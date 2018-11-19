@@ -9,14 +9,15 @@ permalink: /:title/
 social:
   tumblr: ""
   pinterest: ""
-  instagram: ""
-  twitter: ""
+  instagram: "https://www.instagram.com/fernandatosta"
+  twitter: "https://twitter.com/nandatosta"
   facebook: ""
   youtube: ""
   vimeo: ""
+  github: ""
   soundcloud: ""
-  email: ""
-  twitter_user: ""
+  envelope: "mailto:oi@fernandatosta.com"
+twitter_user: "nandatosta"
 
 encoding: utf-8
 
