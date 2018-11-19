@@ -14,6 +14,13 @@ html, body {
   }
 }
 
+a {
+  color: inherit;
+  &:visited {
+    color: inherit;
+  }
+}
+
 .top-bar {
   width: 100%;
   position: relative;
@@ -33,12 +40,16 @@ html, body {
     text-transform: uppercase;
     color: $TEXT-COLOR;
 
-    font-size: 1rem;
+    font-size: 14px;
     font-style: normal;
     font-weight: bold;
     text-align: center;
     letter-spacing: .6em;
     line-height: 1em;
+
+    @include media-query(DESKTOP) {
+      font-size: 16px;
+    }
 
     a {
       text-decoration: none;
@@ -172,8 +183,9 @@ html, body {
 
     .parallax-title {
       text-transform: uppercase;
-      font-size: 32px;
+      font-size: 48px;
       font-weight: 600;
+
       @include media-query(DESKTOP) {
         letter-spacing: .1em;
         font-size: 80px;
@@ -182,7 +194,7 @@ html, body {
     }
 
     .parallax-subtitle {
-      font-size: 24px;
+      font-size: 32px;
       line-height: 2em;
       font-weight: 100;
       @include media-query(DESKTOP) {
@@ -220,7 +232,7 @@ html, body {
     }
   }
 
-  h3 {
+  h2 {
     margin: 25px 0;
     font-size: 25px;
     font-weight: 600;
@@ -315,6 +327,67 @@ html, body {
 
     i {
       font-size: 25px;
+    }
+  }
+}
+
+.pilares-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 64px 0;
+
+  @include media-query(DESKTOP) {
+    flex-wrap: nowrap;
+  }
+
+  .pilar {
+    width: 95%;
+    padding: 0 24px;
+    box-sizing: border-box;
+    text-align: center;
+    color: $TEXT-COLOR-HOVER;
+
+    font-size: 25px;
+    margin-bottom: 64px;
+
+    @include media-query(DESKTOP) {
+      width: 23%;
+      margin-bottom: 0;
+    }
+
+    .pilar-image {
+      i {
+        font-size: 128px;
+        color: #6c3b18;
+      }
+    }
+
+    .pilar-title {
+      font-weight: 600;
+      text-align: center;
+      margin: 25px auto 25px;
+      width: 75%;
+
+      @include media-query(DESKTOP) {
+        width: 100%;
+        margin: 50px auto 25px;
+        text-align: left;
+      }
+    }
+
+    .pilar-text {
+      line-height: 1.2em;
+      font-weight: 300;
+      text-align: center;
+      width: 75%;
+      margin: 0 auto;
+
+      @include media-query(DESKTOP) {
+        width: 100%;
+        text-align: left;
+      }
     }
   }
 }
