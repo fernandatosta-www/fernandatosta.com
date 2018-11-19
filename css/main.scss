@@ -442,6 +442,61 @@ a {
       letter-spacing: 0.13em;
     }
   }
+
+  .video-player {
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    @include media-query(DESKTOP) {
+      padding: 0 64px;
+      flex-direction: row;
+    }
+
+    .video-player-player {
+      width: 100%;
+      padding-right: 0;
+
+      @include media-query(DESKTOP) {
+        width: 80%;
+        padding-right: 8px;
+      }
+    }
+
+    .video-player-menu {
+      width: 100%;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+
+      @include media-query(DESKTOP) {
+        width: 20%;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+
+      .video-player-menu-option {
+        width: 31%;
+        cursor: pointer;
+
+        @include media-query(DESKTOP) {
+          width: 100%;
+        }
+
+        .video-player-menu-option-image {
+          padding-bottom: 56.25%;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+      }
+    }
+  }
 }
 
 .video-wrapper-16x9 {
