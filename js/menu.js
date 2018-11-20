@@ -8,7 +8,7 @@ function hideMenu() {
   document.getElementById('mobile-menu').classList.add('mobile-menu-hidden');
 }
 
-window.onload = function() {
+window.addEventListener('load', function() {
   document.getElementById('menu-open').onclick = showMenu;
   document.getElementById('menu-close').onclick = hideMenu;
-};
+});

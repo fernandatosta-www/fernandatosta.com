@@ -27,14 +27,13 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "page"
+      layout: "list"
   -
     scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      type: "standard"
 
 # prose.io
 prose:
