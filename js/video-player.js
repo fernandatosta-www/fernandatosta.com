@@ -7,6 +7,8 @@ function getClosestParent(elem, selector) {
 
 function menuClicked(e) {
   let player = getClosestParent(this, '.video-player');
+  if(player == null) return;
+
   let currentVideoElement = player.getElementsByClassName('video-player-player')[0];
   let clickedElement = this;
 
