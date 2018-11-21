@@ -53,7 +53,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "projects"
+      type: "projetos"
     values:
       layout: "post"
 
