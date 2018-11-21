@@ -620,19 +620,24 @@ a {
     }
   }
 
-  .list-item-container-33 {
-    @include media-query(DESKTOP) {
-      width: 33%;
-    }
-  }
   .list-item-container-25 {
     @include media-query(DESKTOP) {
       width: 25%;
     }
   }
+  .list-item-container-33 {
+    @include media-query(DESKTOP) {
+      width: 33%;
+    }
+  }
   .list-item-container-50 {
     @include media-query(DESKTOP) {
       width: 50%;
+    }
+  }
+  .list-item-container-100 {
+    @include media-query(DESKTOP) {
+      width: 100%;
     }
   }
 }
