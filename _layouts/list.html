@@ -6,6 +6,19 @@
   </head>
   <body>
     {% include top-bar.html %}
+
+    {% assign collection = page.title | downcase %}
+    {% assign posts = site.collections | where:"label",collection | first %}
+
+    <div class="list-container">
+      {% for p in posts.docs reversed %}
+        {% capture size %}{% cycle '50', '50', '33', '33', '33' %}{% endcapture %}
+        <div class="list-item-container list-item-container-{{ size }}">
+          <a class="list-item" href="{{ site.baseurl }}{{ p.url }}">{{p.title}}</a>
+        </div>
+      {% endfor %}
+    </div>
+
     {% include footer.html %}
   </body>
 </html>
