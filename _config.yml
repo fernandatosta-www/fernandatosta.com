@@ -7,6 +7,15 @@ baseurl: ""
 port: 4554
 permalink: /:title/
 
+collections:
+  cursos:
+    output: true
+    permalink: /:collection/:title/
+  projetos:
+    output: true
+    permalink: /:collection/:title/
+
+
 social:
   tumblr: ""
   pinterest: ""
