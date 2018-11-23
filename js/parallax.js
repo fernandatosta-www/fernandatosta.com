@@ -8,7 +8,7 @@ function processParallaxes() {
 
     if ((elementTop < windowHeight) && (elementBottom > 0)) {
       let offset = Math.abs(elementTop - windowHeight) - (elementBottom - elementTop);
-      parallaxers[i].style.backgroundPositionY = (-offset / 4) + 'px';
+      parallaxers[i].style.backgroundPositionY = (-offset / 2) + 'px';
     }
   }
 }
