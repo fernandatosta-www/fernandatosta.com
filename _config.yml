@@ -2,7 +2,7 @@ name: "Fernanda Tosta"
 keywords: "marcenaria, projetos"
 description: "Busco promover a transformação social através da marcenaria."
 
-url: https://fernandatosta-com.github.io
+url: https://fernandatosta.com
 baseurl: ""
 port: 4554
 permalink: /:title/
