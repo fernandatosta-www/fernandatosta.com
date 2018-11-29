@@ -4,6 +4,16 @@
      style="background-image: url({{ imagepath }}/{{ include.image }})">
   <div class="parallax-tint">
     <div class="parallax-subtitle">{{ include.subtitle }}</div>
-    <div class="parallax-title">{{ include.title }}</div>
+    <div class="parallax-title">
+      {{ include.title }}
+      {% if include.interactive %}
+        <div class="parallax-interactive"></div>
+        <div class="parallax-interactive-invisible"></div>
+      {% endif %}
+    </div>
   </div>
 </div>
+
+{% if include.interactive %}
+  <script src="{{ site.baseurl }}/js/interactive-phrases.js"></script>
+{% endif %}

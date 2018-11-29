@@ -215,6 +215,19 @@ a {
         font-size: 80px;
         line-height: 1em;
       }
+
+      .parallax-interactive {
+        display: inline;
+        // border-bottom: 3px #fff solid;
+        padding-bottom: 0;
+        opacity: 0;
+        transition: opacity 1s linear;
+        color: lightsteelblue;
+      }
+      .parallax-interactive-invisible {
+        display: inline;
+        opacity: 0;
+      }
     }
 
     .parallax-subtitle {
