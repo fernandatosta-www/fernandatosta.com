@@ -228,6 +228,20 @@ a {
         display: inline;
         opacity: 0;
       }
+
+      .user-phrase-input {
+        background-color: rgba(200, 200, 200, 0);
+        color: #fff;
+        border: none;
+        outline: none;
+        padding: 0;
+        box-sizing: border-box;
+        font: inherit;
+        text-transform: uppercase;
+        word-break: break-word;
+        width: 60px;
+        max-width: 100%;
+      }
     }
 
     .parallax-subtitle {
