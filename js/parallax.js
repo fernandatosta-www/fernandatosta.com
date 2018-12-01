@@ -30,6 +30,7 @@ function processParallaxes() {
 }
 
 window.addEventListener('load', function() {
+  window.scrollTo(0, 0);
   let parallaxers = document.getElementsByClassName('parallax-container');
 
   for(let i=0; i<parallaxers.length; i++) {
