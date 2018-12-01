@@ -6,11 +6,18 @@ function processParallaxes() {
   for(let i=0; i<parallaxers.length; i++) {
     let elementTop = parallaxers[i].getBoundingClientRect().top;
     let elementBottom = parallaxers[i].getBoundingClientRect().bottom;
-    let elementHeight = (elementBottom - elementTop);
+    let elementHeight = parallaxers[i].offsetHeight;
 
     if ((elementTop < windowHeight) && (elementBottom > 0)) {
       let offset = (windowHeight + elementHeight) - elementBottom;
-      let offsetPct = offset / (windowHeight + elementHeight);
+      let offsetPct = Math.max(0, offset / (windowHeight + elementHeight));
+
+      if(parallaxers[i].hasAttribute('data-visible-on-load')) {
+        let initialOffset = parallaxers[i].getAttribute('data-visible-on-load');
+        offset = (initialOffset) - elementBottom;
+        offsetPct = Math.max(0, offset / (initialOffset));
+      }
+
       let topPosition = 0.5 * offsetPct * elementHeight;
 
       if(windowWidth > windowHeight) {
@@ -23,6 +30,13 @@ function processParallaxes() {
 }
 
 window.addEventListener('load', function() {
+  let parallaxers = document.getElementsByClassName('parallax-container');
+
+  for(let i=0; i<parallaxers.length; i++) {
+    if(parallaxers[i].offsetTop < window.innerHeight) {
+      parallaxers[i].setAttribute('data-visible-on-load', parallaxers[i].getBoundingClientRect().bottom);
+    }
+  }
   processParallaxes();
 });
 
