@@ -228,8 +228,7 @@ a {
 
       .parallax-interactive {
         display: inline;
-        // border-bottom: 3px #fff solid;
-        padding-bottom: 0;
+        padding: 0;
         opacity: 0;
         transition: opacity 1s linear;
         color: lightsteelblue;
@@ -240,17 +239,23 @@ a {
       }
 
       .user-phrase-input {
-        background-color: rgba(200, 200, 200, 0);
-        color: #fff;
+        display: inline;
+        width: 80%;
         border: none;
         outline: none;
         padding: 0;
         box-sizing: border-box;
         font: inherit;
+        font-size: 48px;
         text-transform: uppercase;
         word-break: break-word;
-        width: 60px;
-        max-width: 100%;
+        background-color: rgba(200, 200, 200, 0.6);
+        color: #fff;
+
+        @include media-query(DESKTOP) {
+          font-size: 80px;
+          line-height: 81px;
+        }
       }
     }
 

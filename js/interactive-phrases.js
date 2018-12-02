@@ -58,16 +58,17 @@ function handleClick() {
 
   let i = document.createElement('input');
   i.classList.add('user-phrase-input');
-  i.setAttribute('maxlength', '20');
+  i.setAttribute('maxlength', '32');
 
   interactiveElement.innerHTML = '';
   interactiveElement.appendChild(i);
-  interactiveElementInvisible.innerHTML = currentPhrase;
   interactiveElement.removeEventListener('click', handleClick);
 
-  i.addEventListener('keyup', function() {
-    i.style.width = ((i.value.length + 1) * 48) + 'px';
-    interactiveElementInvisible.innerHTML = currentPhrase.slice(0, currentPhrase.length - i.value.length);
+  i.addEventListener('keyup', function(e) {
+    if (e.keyCode == 13) {
+      interactiveElement.innerHTML = i.value;
+      interactiveElement.addEventListener('click', handleClick);
+    }
   });
 
   i.focus();
@@ -78,5 +79,5 @@ window.addEventListener('load', function() {
   interactiveElementInvisible = document.getElementsByClassName('parallax-interactive-invisible')[0];
   myTimeout = setTimeout(updateWord, 100);
   // myTimeout = setTimeout(fadeInWord, 100);
-  // interactiveElement.addEventListener('click', handleClick);
+  interactiveElement.addEventListener('click', handleClick);
 });
