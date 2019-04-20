@@ -728,4 +728,11 @@ a {
   img {
     width: 100%;
   }
+  p {
+    font-weight: 300;
+    font-size: 20px;
+    @include media-query(DESKTOP) {
+      font-size: 22px;
+    }
+  }
 }
