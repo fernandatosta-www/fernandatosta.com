@@ -1,6 +1,6 @@
 ---
 title: Marcenaria no Tomie Ohtake
-cover: /media/projects/TomieOhtake/TomieOhtake_00.jpg
+cover: /media/projects/tomie-ohtake/tomie-ohtake_00.jpg
 ---
 Abordando em uma perspectiva transversal a questões desenvolvidas pelo Programa de Acessibilidade do Instituto Tomie Ohtake, com curso voltado para pessoas em situação de vulnerabilidade.
 
@@ -8,4 +8,4 @@ Uma das turmas foi compostas por adultos e idosos residentes em centros de acolh
 
 [Marcenaria no Tomie Ohtake](https://www.institutotomieohtake.org.br/participe/interna/marcenaria){:target="_blank"}
 
-{% include swipebox.html prefix="TomieOhtake_" %}
+{% include swipebox.html prefix="tomie-ohtake_" %}

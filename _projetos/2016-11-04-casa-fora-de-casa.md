@@ -1,6 +1,6 @@
 ---
 title: Mobiliário Urbano Temporário
-cover: /media/projects/CasaForaCasa/CasaForaCasa_00.jpg
+cover: /media/projects/casa-fora-de-casa/casa-fora-de-casa_00.jpg
 ---
 Confecção de móveis para a comunidade na Ilha da Galhofa.
 
@@ -12,4 +12,4 @@ Fotos: Layza Vasconcelos
 
 [Casa Fora de Casa](https://casaforade.casa/home/){:target="_blank"}
 
-{% include swipebox.html prefix="CasaForaCasa_" %}
+{% include swipebox.html prefix="casa-fora-de-casa_" %}
