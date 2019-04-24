@@ -1,5 +1,5 @@
 ---
-title: 'Marcenaria Tohmie Ohtake: Jovens 2018'
+title: 'Marcenaria Tomie Ohtake: Jovens 2018'
 cover: /media/projects/tomie-marcenaria-jovens-2018/tomie-marcenaria-jovens-2018_00.jpg
 download: ''
 video: ''
