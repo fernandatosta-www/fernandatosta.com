@@ -1,6 +1,6 @@
 ---
-title: Criado Mudo
-cover: /media/projects/criado-mudo/criado-mudo_00.jpg
+title: Móvel de Apoio
+cover: /media/projects/movel-de-apoio/movel-de-apoio_00.jpg
 download: ''
 video: ''
 ---
@@ -17,4 +17,4 @@ Orientação de construção: Fernanda Tosta
 Participantes:  
 Fotografia:  
 
-{% include swipebox.html prefix="criado-mudo_" %}
+{% include swipebox.html prefix="movel-de-apoio_" %}
