@@ -1,6 +1,6 @@
 ---
-title: Adaptações Acessíveis
-cover: /media/projects/adaptacoes-acessiveis/adaptacoes-acessiveis_00.jpg
+title: Poltrona Esquadros
+cover: /media/projects/poltrona-esquadros/poltrona-esquadros_00.jpg
 download: ''
 video: ''
 ---
@@ -17,4 +17,4 @@ Orientação de construção: Fernanda Tosta
 Participantes:  
 Fotografia:  
 
-{% include swipebox.html prefix="adaptacoes-acessiveis_" %}
+{% include swipebox.html prefix="poltrona-esquadros_" %}
