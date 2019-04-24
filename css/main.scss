@@ -684,10 +684,8 @@ a {
       width: 100%;
       box-sizing: border-box;
       padding: 33% 16px;
-      background-color: #ccc;
-      background-position: center center;
-      background-size: cover;
-      background-repeat: no-repeat;
+      color: $LINK-COLOR-LIGHT;
+      background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.4), rgba(0,0,0,0));
 
       text-align: center;
       text-transform: uppercase;
@@ -697,8 +695,18 @@ a {
       transition: all $TRANSITION-PERIOD linear;
 
       &:hover {
-        background-color: #eee;
+        background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.5), rgba(0,0,0,0));
       }
+
+      @include media-query(DESKTOP) {
+        font-size: 1.8vw;
+      }
+    }
+
+    .list-item-image {
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
     }
   }
 

@@ -14,11 +14,12 @@
       {% for p in posts.docs reversed %}
         {% capture size %}{% cycle '50', '50', '33', '33', '33' %}{% endcapture %}
         <div class="list-item-container list-item-container-{{ size }}">
-          <a class="list-item"
-             href="{{ site.baseurl }}{{ p.url }}"
-             style="background-image: url('{{ site.baseurl }}{{p.cover}}')">
-            {{p.title}}
-          </a>
+          <div class="list-item-image" style="background-image: url('{{ site.baseurl }}{{p.cover}}')">
+            <a class="list-item"
+               href="{{ site.baseurl }}{{ p.url }}">
+              {{p.title}}
+            </a>
+          </div>
         </div>
       {% endfor %}
     </div>
