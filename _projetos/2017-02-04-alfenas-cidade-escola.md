@@ -4,8 +4,6 @@ cover: /media/projects/alfenas-cidade-escola/alfenas-cidade-escola_00.jpg
 download: ''
 youtube: ''
 ---
-Link para download
-
 **Ficha técnica**  
 Local:  
 Data:  

@@ -103,9 +103,13 @@ prose:
           element: "text"
           label: "id do video do youtube (só o id)"
           placeholder: "dq9vQD83taU"
+      - name: "download"
+        field:
+          element: "text"
+          label: "nome do arquivo do projeto para download"
+          placeholder: "/media/projects/adaptacoes-acessiveis/adaptacoes-acessiveis.pdf"
       - name: "cover"
         field:
           element: "text"
           label: "imagem de capa para o projeto (tem que ser .jpg por enquanto)"
           placeholder: "/media/projects/adaptacoes-acessiveis/adaptacoes-acessiveis_00.jpg"
-

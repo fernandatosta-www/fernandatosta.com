@@ -4,9 +4,6 @@ cover: /media/projects/estante-oculos/estante-oculos_00.jpg
 download: ''
 youtube: ''
 ---
-
-Link para download
-
 **Ficha técnica**  
 Local:  
 Data:  

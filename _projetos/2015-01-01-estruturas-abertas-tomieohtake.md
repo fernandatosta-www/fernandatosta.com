@@ -4,8 +4,6 @@ cover: /media/projects/estruturas-abertas-tomieohtake/estruturas-abertas-tomieoh
 download: ''
 youtube: ''
 ---
-Link para download
-
 **Ficha técnica**  
 Local:  
 Data:  

@@ -4,8 +4,6 @@ cover: /media/projects/arquibancada-escale/arquibancada-escale_00.jpg
 download: ''
 youtube: ''
 ---
-Link para download
-
 **Ficha técnica**  
 Local:  
 Data:  

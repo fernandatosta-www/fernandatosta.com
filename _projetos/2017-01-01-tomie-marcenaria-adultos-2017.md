@@ -4,8 +4,6 @@ cover: /media/projects/tomie-marcenaria-adultos-2017/tomie-marcenaria-adultos-20
 download: ''
 youtube: ''
 ---
-Link para download
-
 **Ficha técnica**  
 Local:  
 Data:  

@@ -4,8 +4,6 @@ cover: /media/projects/catarse-brindes/catarse-brindes_00.jpg
 download: ''
 youtube: ''
 ---
-Link para download
-
 **Ficha técnica**  
 Local:  
 Data:  

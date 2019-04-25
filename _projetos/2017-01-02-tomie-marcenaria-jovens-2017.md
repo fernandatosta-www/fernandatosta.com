@@ -4,8 +4,6 @@ cover: /media/projects/tomie-marcenaria-jovens-2017/tomie-marcenaria-jovens-2017
 download: ''
 youtube: ''
 ---
-Link para download
-
 **Ficha técnica**  
 Local:  
 Data:  

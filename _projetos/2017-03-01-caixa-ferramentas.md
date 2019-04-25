@@ -4,8 +4,6 @@ cover: /media/projects/caixa-ferramentas/caixa-ferramentas_00.jpg
 download: ''
 youtube: ''
 ---
-Link para download
-
 **Ficha técnica**  
 Local:  
 Data:  

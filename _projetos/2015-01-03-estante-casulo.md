@@ -4,8 +4,6 @@ cover: /media/projects/estante-casulo/estante-casulo_00.jpg
 download: ''
 youtube: ''
 ---
-Link para download
-
 **Ficha técnica**  
 Local:  
 Data:  

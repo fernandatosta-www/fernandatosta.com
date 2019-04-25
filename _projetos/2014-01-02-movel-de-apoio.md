@@ -4,8 +4,6 @@ cover: /media/projects/movel-de-apoio/movel-de-apoio_00.jpg
 download: ''
 youtube: ''
 ---
-Link para download
-
 **Ficha técnica**  
 Local:  
 Data:  

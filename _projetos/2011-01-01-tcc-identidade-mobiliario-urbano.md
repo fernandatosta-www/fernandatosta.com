@@ -4,8 +4,6 @@ cover: /media/projects/tcc-identidade-mobiliario-urbano/tcc-identidade-mobiliari
 download: ''
 youtube: ''
 ---
-Link para download
-
 **Ficha técnica**  
 Local:  
 Data:  

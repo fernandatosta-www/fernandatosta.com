@@ -4,8 +4,6 @@ cover: /media/projects/expositores-cubas/expositores-cubas_00.jpg
 download: ''
 youtube: ''
 ---
-Link para download
-
 **Ficha técnica**  
 Local:  
 Data:  

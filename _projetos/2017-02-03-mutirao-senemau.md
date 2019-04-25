@@ -4,8 +4,6 @@ cover: /media/projects/mutirao-senemau/mutirao-senemau_00.jpg
 download: ''
 youtube: ''
 ---
-Link para download
-
 **Ficha técnica**  
 Local:  
 Data:  

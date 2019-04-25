@@ -4,8 +4,6 @@ cover: /media/projects/rack-avante/rack-avante_00.jpg
 download: ''
 youtube: ''
 ---
-Link para download
-
 **Ficha técnica**  
 Local:  
 Data:  

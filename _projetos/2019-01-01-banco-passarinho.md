@@ -4,8 +4,6 @@ cover: /media/projects/banco-passarinho/banco-passarinho_00.jpg
 download: ''
 youtube: ''
 ---
-Link para download
-
 **Ficha técnica**  
 Local:  
 Data:  
