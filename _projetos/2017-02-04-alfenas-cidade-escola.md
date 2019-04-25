@@ -2,12 +2,9 @@
 title: 'Alfenas: Cidade Escola'
 cover: /media/projects/alfenas-cidade-escola/alfenas-cidade-escola_00.jpg
 download: ''
-video: ''
+youtube: ''
 ---
-
 Link para download
-
-Link para video
 
 **Ficha técnica**  
 Local:  

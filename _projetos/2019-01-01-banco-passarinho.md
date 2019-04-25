@@ -2,12 +2,9 @@
 title: 'Banco Passarinho'
 cover: /media/projects/banco-passarinho/banco-passarinho_00.jpg
 download: ''
-video: ''
+youtube: ''
 ---
-
 Link para download
-
-Link para video
 
 **Ficha técnica**  
 Local:  

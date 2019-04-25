@@ -2,12 +2,9 @@
 title: Estruturas Abertas
 cover: /media/projects/estruturas-abertas-tomieohtake/estruturas-abertas-tomieohtake_00.jpg
 download: ''
-video: ''
+youtube: ''
 ---
-
 Link para download
-
-Link para video
 
 **Ficha técnica**  
 Local:  

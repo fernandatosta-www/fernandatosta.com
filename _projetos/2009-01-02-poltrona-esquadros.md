@@ -2,12 +2,9 @@
 title: Poltrona Esquadros
 cover: /media/projects/poltrona-esquadros/poltrona-esquadros_00.jpg
 download: ''
-video: ''
+youtube: ''
 ---
-
 Link para download
-
-Link para video
 
 **Ficha técnica**  
 Local:  

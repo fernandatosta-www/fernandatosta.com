@@ -2,12 +2,9 @@
 title: 'Estante Casulo'
 cover: /media/projects/estante-casulo/estante-casulo_00.jpg
 download: ''
-video: ''
+youtube: ''
 ---
-
 Link para download
-
-Link para video
 
 **Ficha técnica**  
 Local:  

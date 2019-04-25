@@ -2,12 +2,9 @@
 title: 'Expositores: Cubas'
 cover: /media/projects/expositores-cubas/expositores-cubas_00.jpg
 download: ''
-video: ''
+youtube: ''
 ---
-
 Link para download
-
-Link para video
 
 **Ficha técnica**  
 Local:  

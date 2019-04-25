@@ -2,12 +2,10 @@
 title: Adaptações Acessíveis
 cover: /media/projects/adaptacoes-acessiveis/adaptacoes-acessiveis_00.jpg
 download: ''
-video: ''
+youtube: ''
 ---
 
 Link para download
-
-Link para video
 
 **Ficha técnica**  
 Local:  

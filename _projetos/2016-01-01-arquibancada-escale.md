@@ -2,12 +2,9 @@
 title: 'Arquibancada Escale'
 cover: /media/projects/arquibancada-escale/arquibancada-escale_00.jpg
 download: ''
-video: ''
+youtube: ''
 ---
-
 Link para download
-
-Link para video
 
 **Ficha técnica**  
 Local:  

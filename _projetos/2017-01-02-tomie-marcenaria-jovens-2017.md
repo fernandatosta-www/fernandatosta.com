@@ -2,12 +2,9 @@
 title: 'Marcenaria Tomie Ohtake: Jovens 2017'
 cover: /media/projects/tomie-marcenaria-jovens-2017/tomie-marcenaria-jovens-2017_00.jpg
 download: ''
-video: ''
+youtube: ''
 ---
-
 Link para download
-
-Link para video
 
 **Ficha técnica**  
 Local:  

@@ -2,12 +2,9 @@
 title: 'Decoração Chabar'
 cover: /media/projects/decoracao-chabar/decoracao-chabar_00.jpg
 download: ''
-video: ''
+youtube: ''
 ---
-
 Link para download
-
-Link para video
 
 **Ficha técnica**  
 Local:  

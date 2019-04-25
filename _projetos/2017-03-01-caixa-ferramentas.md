@@ -2,12 +2,9 @@
 title: 'Caixa de Ferramentas'
 cover: /media/projects/caixa-ferramentas/caixa-ferramentas_00.jpg
 download: ''
-video: ''
+youtube: ''
 ---
-
 Link para download
-
-Link para video
 
 **Ficha técnica**  
 Local:  

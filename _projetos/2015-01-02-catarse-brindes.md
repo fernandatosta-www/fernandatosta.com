@@ -2,12 +2,9 @@
 title: 'Catarse: Brindes'
 cover: /media/projects/catarse-brindes/catarse-brindes_00.jpg
 download: ''
-video: ''
+youtube: ''
 ---
-
 Link para download
-
-Link para video
 
 **Ficha técnica**  
 Local:  

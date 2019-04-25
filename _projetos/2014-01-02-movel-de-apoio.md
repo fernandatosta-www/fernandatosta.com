@@ -2,12 +2,9 @@
 title: Móvel de Apoio
 cover: /media/projects/movel-de-apoio/movel-de-apoio_00.jpg
 download: ''
-video: ''
+youtube: ''
 ---
-
 Link para download
-
-Link para video
 
 **Ficha técnica**  
 Local:  

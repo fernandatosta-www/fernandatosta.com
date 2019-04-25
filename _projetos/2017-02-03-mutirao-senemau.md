@@ -2,12 +2,9 @@
 title: 'Mutirão Senemau'
 cover: /media/projects/mutirao-senemau/mutirao-senemau_00.jpg
 download: ''
-video: ''
+youtube: ''
 ---
-
 Link para download
-
-Link para video
 
 **Ficha técnica**  
 Local:  

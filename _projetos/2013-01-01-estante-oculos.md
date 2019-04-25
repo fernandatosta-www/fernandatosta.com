@@ -2,12 +2,10 @@
 title: 'Estante: Óculos'
 cover: /media/projects/estante-oculos/estante-oculos_00.jpg
 download: ''
-video: ''
+youtube: ''
 ---
 
 Link para download
-
-Link para video
 
 **Ficha técnica**  
 Local:  

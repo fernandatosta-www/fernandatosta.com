@@ -2,12 +2,9 @@
 title: FullCompost
 cover: /media/projects/full-compost/full-compost_00.jpg
 download: ''
-video: ''
+youtube: ''
 ---
-
 Link para download
-
-Link para video
 
 **Ficha técnica**  
 Local:  

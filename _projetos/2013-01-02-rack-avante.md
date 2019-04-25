@@ -2,12 +2,9 @@
 title: Rack Avante
 cover: /media/projects/rack-avante/rack-avante_00.jpg
 download: ''
-video: ''
+youtube: ''
 ---
-
 Link para download
-
-Link para video
 
 **Ficha técnica**  
 Local:  

@@ -2,12 +2,9 @@
 title: 'Rio Arquitetura'
 cover: /media/projects/rio-arquitetura/rio-arquitetura_00.jpg
 download: ''
-video: ''
+youtube: ''
 ---
-
 Link para download
-
-Link para video
 
 **Ficha técnica**  
 Local:  
