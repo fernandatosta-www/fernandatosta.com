@@ -15,7 +15,6 @@ collections:
     output: true
     permalink: /:collection/:title/
 
-
 social:
   tumblr: ""
   pinterest: ""
@@ -57,24 +56,36 @@ defaults:
     values:
       layout: "post"
 
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+relative_permalinks: false
+include: ['_pages']
+exclude: [.git, .gitignore, .sass-cache, README.md]
+
 # prose.io
 prose:
   media: 'media'
   ignore:
     - .gitignore
+    - .sass-cache
     - _config.yml
-    - _layouts
+    - _data
     - _includes
+    - _layouts
     - _pages
     - _sass
-    - css
-    - fonts
-    - js
+    - _site
     - CNAME
+    - css
+    - js
+    - media/assets
+    - media/covers
     - media/favicon
     - media/swipebox
   metadata:
-    _pages:
+    _projetos:
       - name: "layout"
         field:
           element: "hidden"
@@ -86,17 +97,15 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "nome da página"
-      - name: "cover-image"
+          label: "nome do projeto"
+      - name: "youtube"
         field:
           element: "text"
-          label: "imagem de capa para a página (tem que ser .jpg por enquanto)"
-          placeholder: "horta2.jpg"
+          label: "id do video do youtube (só o id)"
+          placeholder: "dq9vQD83taU"
+      - name: "cover"
+        field:
+          element: "text"
+          label: "imagem de capa para o projeto (tem que ser .jpg por enquanto)"
+          placeholder: "/media/projects/adaptacoes-acessiveis/adaptacoes-acessiveis_00.jpg"
 
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-relative_permalinks: false
-include: ['_pages']
-exclude: [.git, .gitignore, .sass-cache, README.md]
