@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    {% include meta.html %}
+  </head>
+  <body>
+    {% include top-bar.html %}
+
+    {% assign posts = site.collections | where:"label","projetos" | first %}
+
+    <div class="list-container">
+      {% for p in posts.docs reversed %}
+        {% capture size %}{% cycle '50', '50', '33', '33', '33' %}{% endcapture %}
+        <div class="list-item-container list-item-container-{{ size }} swipebox-gallery">
+          <div class="list-item-image" style="background-image: url('{{ site.baseurl }}{{p.cover}}')">
+            {% assign count = 0 %}
+            {% for file in site.static_files %}
+              {% if file.path contains p.swipebox %}
+                {% capture hideimg %}
+                  {% if count > 0 %}
+                    style="display:none;"
+                  {% endif %}
+                {% endcapture %}
+                {% assign count = count | plus: 1 %}
+                <a rel="{{ include.prefix }}" href="{{ site.baseurl }}{{ file.path }}" class="swipebox list-item" title="{{ include.subtitle }}" {{ hideimg }}>{{p.title}}</a>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    {% include mailchimp.html %}
+    {% include footer.html %}
+    <script src="{{ site.baseurl }}/js/swipebox.js"></script>
+  </body>
+</html>
