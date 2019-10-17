@@ -3,6 +3,7 @@ title: 'TCC: Identidade Mobiliário Urbano'
 cover: /media/projects/tcc-identidade-mobiliario-urbano/tcc-identidade-mobiliario-urbano_00.jpg
 download: ''
 youtube: ''
+swipebox: tcc-identidade-mobiliario-urbano_
 ---
 **Ficha técnica**  
 Local:  
@@ -12,4 +13,4 @@ Orientação de construção: Fernanda Tosta
 Participantes:  
 Fotografia:  
 
-{% include swipebox.html prefix="tcc-identidade-mobiliario-urbano_" %}
+{% include swipebox.html prefix=page.swipebox %}

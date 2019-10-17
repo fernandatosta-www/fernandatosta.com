@@ -3,6 +3,7 @@ title: 'Café Terceira Casa'
 cover: /media/projects/cafe-terceira-casa/cafe-terceira-casa_00.jpg
 download: ''
 youtube: ''
+swipebox: cafe-terceira-casa_
 ---
 **Ficha técnica**  
 Local:  
@@ -12,4 +13,4 @@ Orientação de construção: Fernanda Tosta
 Participantes:  
 Fotografia:  
 
-{% include swipebox.html prefix="cafe-terceira-casa_" %}
+{% include swipebox.html prefix=page.swipebox %}

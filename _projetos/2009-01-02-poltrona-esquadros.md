@@ -3,6 +3,7 @@ title: Poltrona Esquadros
 cover: /media/projects/poltrona-esquadros/poltrona-esquadros_00.jpg
 download: ''
 youtube: ''
+swipebox: poltrona-esquadros_
 ---
 **Ficha técnica**  
 Local:  
@@ -12,4 +13,4 @@ Orientação de construção: Fernanda Tosta
 Participantes:  
 Fotografia:  
 
-{% include swipebox.html prefix="poltrona-esquadros_" %}
+{% include swipebox.html prefix=page.swipebox %}

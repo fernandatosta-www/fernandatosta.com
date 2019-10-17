@@ -3,6 +3,7 @@ title: FullCompost
 cover: /media/projects/full-compost/full-compost_00.jpg
 download: ''
 youtube: ''
+swipebox: full-compost_
 ---
 **Ficha técnica**  
 Local:  
@@ -12,4 +13,4 @@ Orientação de construção: Fernanda Tosta
 Participantes:  
 Fotografia:  
 
-{% include swipebox.html prefix="full-compost_" %}
+{% include swipebox.html prefix=page.swipebox %}

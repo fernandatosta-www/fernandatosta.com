@@ -3,6 +3,7 @@ title: Móvel de Apoio
 cover: /media/projects/movel-de-apoio/movel-de-apoio_00.jpg
 download: ''
 youtube: ''
+swipebox: movel-de-apoio_
 ---
 **Ficha técnica**  
 Local:  
@@ -12,4 +13,4 @@ Orientação de construção: Fernanda Tosta
 Participantes:  
 Fotografia:  
 
-{% include swipebox.html prefix="movel-de-apoio_" %}
+{% include swipebox.html prefix=page.swipebox %}

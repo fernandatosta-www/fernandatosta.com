@@ -3,6 +3,7 @@ title: 'Rio Arquitetura'
 cover: /media/projects/rio-arquitetura/rio-arquitetura_00.jpg
 download: ''
 youtube: ''
+swipebox: rio-arquitetura_
 ---
 **Ficha técnica**  
 Local:  
@@ -12,4 +13,4 @@ Orientação de construção: Fernanda Tosta
 Participantes:  
 Fotografia:  
 
-{% include swipebox.html prefix="rio-arquitetura_" %}
+{% include swipebox.html prefix=page.swipebox %}

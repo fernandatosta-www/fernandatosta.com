@@ -3,6 +3,7 @@ title: 'Alfenas: Cidade Escola'
 cover: /media/projects/alfenas-cidade-escola/alfenas-cidade-escola_00.jpg
 download: ''
 youtube: ''
+swipebox: alfenas-cidade-escola_
 ---
 **Ficha técnica**  
 Local:  
@@ -12,4 +13,4 @@ Orientação de construção: Fernanda Tosta
 Participantes:  
 Fotografia:  
 
-{% include swipebox.html prefix="alfenas-cidade-escola_" %}
+{% include swipebox.html prefix=page.swipebox %}

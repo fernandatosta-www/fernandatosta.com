@@ -3,6 +3,7 @@ title: 'Caixa de Ferramentas'
 cover: /media/projects/caixa-ferramentas/caixa-ferramentas_00.jpg
 download: ''
 youtube: ''
+swipebox: caixa-ferramentas_
 ---
 **Ficha técnica**  
 Local:  
@@ -12,4 +13,4 @@ Orientação de construção: Fernanda Tosta
 Participantes:  
 Fotografia:  
 
-{% include swipebox.html prefix="caixa-ferramentas_" %}
+{% include swipebox.html prefix=page.swipebox %}

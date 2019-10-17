@@ -3,6 +3,7 @@ title: 'Estante Casulo'
 cover: /media/projects/estante-casulo/estante-casulo_00.jpg
 download: ''
 youtube: ''
+swipebox: estante-casulo_
 ---
 **Ficha técnica**  
 Local:  
@@ -12,4 +13,4 @@ Orientação de construção: Fernanda Tosta
 Participantes:  
 Fotografia:  
 
-{% include swipebox.html prefix="estante-casulo_" %}
+{% include swipebox.html prefix=page.swipebox %}

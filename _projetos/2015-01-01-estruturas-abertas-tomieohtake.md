@@ -3,6 +3,7 @@ title: Estruturas Abertas
 cover: /media/projects/estruturas-abertas-tomieohtake/estruturas-abertas-tomieohtake_00.jpg
 download: ''
 youtube: ''
+swipebox: estruturas-abertas-tomieohtake_
 ---
 **Ficha técnica**  
 Local:  
@@ -12,4 +13,4 @@ Orientação de construção: Fernanda Tosta
 Participantes:  
 Fotografia:  
 
-{% include swipebox.html prefix="estruturas-abertas-tomieohtake_" %}
+{% include swipebox.html prefix=page.swipebox %}

@@ -3,6 +3,7 @@ title: 'Banco Passarinho'
 cover: /media/projects/banco-passarinho/banco-passarinho_00.jpg
 download: ''
 youtube: ''
+swipebox: banco-passarinho_
 ---
 **Ficha técnica**  
 Local:  
@@ -12,4 +13,4 @@ Orientação de construção: Fernanda Tosta
 Participantes:  
 Fotografia:  
 
-{% include swipebox.html prefix="banco-passarinho_" %}
+{% include swipebox.html prefix=page.swipebox %}

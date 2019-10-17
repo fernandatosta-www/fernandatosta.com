@@ -3,6 +3,7 @@ title: 'Expositores: Cubas'
 cover: /media/projects/expositores-cubas/expositores-cubas_00.jpg
 download: ''
 youtube: ''
+swipebox: expositores-cubas_
 ---
 **Ficha técnica**  
 Local:  
@@ -12,4 +13,4 @@ Orientação de construção: Fernanda Tosta
 Participantes:  
 Fotografia:  
 
-{% include swipebox.html prefix="expositores-cubas_" %}
+{% include swipebox.html prefix=page.swipebox %}

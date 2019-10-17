@@ -3,6 +3,7 @@ title: Adaptações Acessíveis
 cover: /media/projects/adaptacoes-acessiveis/adaptacoes-acessiveis_00.jpg
 download: ''
 youtube: ''
+swipebox: adaptacoes-acessiveis_
 ---
 **Ficha técnica**  
 Local:  
@@ -12,4 +13,4 @@ Orientação de construção: Fernanda Tosta
 Participantes:  
 Fotografia:  
 
-{% include swipebox.html prefix="adaptacoes-acessiveis_" %}
+{% include swipebox.html prefix=page.swipebox %}

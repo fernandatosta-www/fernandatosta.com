@@ -3,6 +3,7 @@ title: 'Arquibancada Escale'
 cover: /media/projects/arquibancada-escale/arquibancada-escale_00.jpg
 download: ''
 youtube: ''
+swipebox: arquibancada-escale_
 ---
 **Ficha técnica**  
 Local:  
@@ -12,4 +13,4 @@ Orientação de construção: Fernanda Tosta
 Participantes:  
 Fotografia:  
 
-{% include swipebox.html prefix="arquibancada-escale_" %}
+{% include swipebox.html prefix=page.swipebox %}

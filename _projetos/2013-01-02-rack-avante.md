@@ -3,6 +3,7 @@ title: Rack Avante
 cover: /media/projects/rack-avante/rack-avante_00.jpg
 download: ''
 youtube: ''
+swipebox: rack-avante_
 ---
 **Ficha técnica**  
 Local:  
@@ -12,4 +13,4 @@ Orientação de construção: Fernanda Tosta
 Participantes:  
 Fotografia:  
 
-{% include swipebox.html prefix="rack-avante_" %}
+{% include swipebox.html prefix=page.swipebox %}

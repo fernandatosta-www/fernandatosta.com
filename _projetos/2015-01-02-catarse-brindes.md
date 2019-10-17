@@ -3,6 +3,7 @@ title: 'Catarse: Brindes'
 cover: /media/projects/catarse-brindes/catarse-brindes_00.jpg
 download: ''
 youtube: ''
+swipebox: catarse-brindes_
 ---
 **Ficha técnica**  
 Local:  
@@ -12,4 +13,4 @@ Orientação de construção: Fernanda Tosta
 Participantes:  
 Fotografia:  
 
-{% include swipebox.html prefix="catarse-brindes_" %}
+{% include swipebox.html prefix=page.swipebox %}

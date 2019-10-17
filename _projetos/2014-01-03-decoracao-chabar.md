@@ -3,6 +3,7 @@ title: 'Decoração Chabar'
 cover: /media/projects/decoracao-chabar/decoracao-chabar_00.jpg
 download: ''
 youtube: ''
+swipebox: decoracao-chabar_
 ---
 **Ficha técnica**  
 Local:  
@@ -12,4 +13,4 @@ Orientação de construção: Fernanda Tosta
 Participantes:  
 Fotografia:  
 
-{% include swipebox.html prefix="decoracao-chabar_" %}
+{% include swipebox.html prefix=page.swipebox %}
