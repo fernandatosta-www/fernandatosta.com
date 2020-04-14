@@ -14,6 +14,9 @@ collections:
   projetos:
     output: true
     permalink: /:collection/:title/
+  conversadeiras:
+    output: true
+    permalink: /:collection/:title/
 
 social:
   tumblr: ""
